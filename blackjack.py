@@ -76,6 +76,10 @@ def jogoCPU():
 Soma = {soma_cartas_jogador}
                     """)
     print("Gostaria de mais uma carta(y/n)? " )
+    if input() != 'y' or input() != 'n':
+        print("Por gentileza, digitar um comando valido (y/n)")
+        time.sleep(1)
+        print("Gostaria de mais uma carta(y/n)? " )
     comando = input()
     os.system('clear') or None
 
@@ -100,6 +104,10 @@ Soma = {soma_cartas_jogador}
                 break                
 
             print("Gostaria de mais uma carta(y/n)? " )
+            if input() != 'y' or input() != 'n':
+                print("Por gentileza, digitar um comando valido (y/n)")
+                time.sleep(1)
+                print("Gostaria de mais uma carta(y/n)? " )
             comando = input()    
             
             os.system('clear') or None
@@ -121,10 +129,14 @@ Soma = {soma_cartas_jogador}
                     break
 
                 print("Gostaria de mais uma carta(y/n)? " )
+                if input() != 'y' or input() != 'n':
+                    print("Por gentileza, digitar um comando valido (y/n)")
+                    time.sleep(1)
+                    print("Gostaria de mais uma carta(y/n)? " )
+
                 comando = input()
 
                 os.system('clear') or None
-
             cont = 4
             while comando == 'y':
                 i = DeckCartas.embaralhar()
@@ -143,6 +155,10 @@ Soma = {soma_cartas_jogador}
                     break
 
                 print("Gostaria de mais uma carta(y/n)? " )
+                if input() != 'y' or input() != 'n':
+                    print("Por gentileza, digitar um comando valido (y/n)")
+                    time.sleep(1)
+                    print("Gostaria de mais uma carta(y/n)? " )
                 comando = input()
 
                 os.system('clear') or None
@@ -290,6 +306,10 @@ def jogoDois():
 Soma = {soma_cartas_jogador1}
                     """)
     print("Gostaria de mais uma carta(y/n)? " )
+    if input() != 'y' or input() != 'n':
+        print("Por gentileza, digitar um comando valido (y/n)")
+        time.sleep(1)
+        print("Gostaria de mais uma carta(y/n)? " )
     comando = input()
     os.system('clear') or None
 
@@ -317,6 +337,10 @@ Soma = {soma_cartas_jogador1}
                 break                
 
             print("Gostaria de mais uma carta(y/n)? " )
+            if input() != 'y' or input() != 'n':
+                print("Por gentileza, digitar um comando valido (y/n)")
+                time.sleep(1)
+                print("Gostaria de mais uma carta(y/n)? " )
             comando = input()    
             
             os.system('clear') or None
@@ -341,6 +365,10 @@ Soma = {soma_cartas_jogador1}
                     break
 
                 print("Gostaria de mais uma carta(y/n)? " )
+                if input() != 'y' or input() != 'n':
+                    print("Por gentileza, digitar um comando valido (y/n)")
+                    time.sleep(1)
+                    print("Gostaria de mais uma carta(y/n)? " )
                 comando = input()
 
                 os.system('clear') or None
@@ -367,6 +395,10 @@ Soma = {soma_cartas_jogador1}
                     break
 
                 print("Gostaria de mais uma carta(y/n)? " )
+                if input() != 'y' or input() != 'n':
+                    print("Por gentileza, digitar um comando valido (y/n)")
+                    time.sleep(1)
+                    print("Gostaria de mais uma carta(y/n)? " )
                 comando = input()
 
                 os.system('clear') or None
@@ -388,6 +420,10 @@ Soma = {soma_cartas_jogador1}
 Soma = {soma_cartas_jogador2}
                     """)
     print("Gostaria de mais uma carta(y/n)? " )
+    if input() != 'y' or input() != 'n':
+        print("Por gentileza, digitar um comando valido (y/n)")
+        time.sleep(1)
+        print("Gostaria de mais uma carta(y/n)? " )
     comando = input()
     os.system('clear') or None
 
@@ -412,6 +448,10 @@ Soma = {soma_cartas_jogador2}
                 break                
 
             print("Gostaria de mais uma carta(y/n)? " )
+            if input() != 'y' or input() != 'n':
+                print("Por gentileza, digitar um comando valido (y/n)")
+                time.sleep(1)
+                print("Gostaria de mais uma carta(y/n)? " )
             comando = input()    
             
             os.system('clear') or None
@@ -434,6 +474,10 @@ Soma = {soma_cartas_jogador2}
                     break
 
                 print("Gostaria de mais uma carta(y/n)? " )
+                if input() != 'y' or input() != 'n':
+                    print("Por gentileza, digitar um comando valido (y/n)")
+                    time.sleep(1)
+                    print("Gostaria de mais uma carta(y/n)? " )
                 comando = input()
 
                 os.system('clear') or None
@@ -458,6 +502,10 @@ Soma = {soma_cartas_jogador2}
                     break
 
                 print("Gostaria de mais uma carta(y/n)? " )
+                if input() != 'y' or input() != 'n':
+                    print("Por gentileza, digitar um comando valido (y/n)")
+                    time.sleep(1)
+                    print("Gostaria de mais uma carta(y/n)? " )
                 comando = input()
 
                 os.system('clear') or None
