@@ -1,0 +1,1 @@
+- Não é necessario instalar nenhuma biblioteca, somente as padroes do python
